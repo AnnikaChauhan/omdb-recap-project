@@ -1,11 +1,13 @@
 import React from 'react';
-import './App.module.scss';
 import Navbar from "../../component/Navbar";
 import Main from "../../component/Main";
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import styles from './App.module.scss';
+
 function App() {
   return (
-    <div className="App">
+    <div className={styles.App}>
       <Navbar/>
       <Main/>
     </div>

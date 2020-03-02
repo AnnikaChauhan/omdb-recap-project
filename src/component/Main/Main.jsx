@@ -1,11 +1,13 @@
 import React, {Component} from "react";
+import styles from "./Main.module.scss";
+import MovieList from "./MovieList";
 
-class Main extends Component {
+export default class Main extends Component {
     render(){
         return(
-            <p>Main</p>
+            <section className={styles.Main}>
+                <MovieList/>
+            </section>
         );
     }
 }
-
-export default Main;
