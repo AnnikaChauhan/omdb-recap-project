@@ -11,7 +11,7 @@ export default class Routes extends Component {
             <Router>
                 <Redirect noThrow from="/" to="movielist" />
                 <Login path="login" />
-                <MovieList path="movielist" />
+                <MovieList  path="movielist" movieCollection={this.props.movieCollection} />
                 <NotFound default />
             </Router>
         );

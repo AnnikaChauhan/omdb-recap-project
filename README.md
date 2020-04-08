@@ -1,3 +1,13 @@
+# OMDB Movie Database
+This project is a movie database and was a project completed alone to practice React skills but also connect to an external API. Movies render from the omdb movies API.
+
+This app was build in React. If you clone this repo down you will need to do a 'yarn install' in the terminal in order to install all of the related packages. You can then do a 'yarn start' to view a demo version of the app as you make changes.
+
+This app has no live version and no firebase backend.
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
